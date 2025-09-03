@@ -9,7 +9,7 @@ int main() {
     printf("Enter Your Name:\n");
     scanf("%9s", name);  // limit input to 9 chars
     printf("Enter Your Last Name:\n");
-    scanf("%9s", lastname);
+    scanf("%s", lastname);
     printf("Enter Your Age:\n");
     scanf("%d", &age);
     printf("Enter Your Height:\n");
